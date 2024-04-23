@@ -1,0 +1,179 @@
+<title>Practice</title>
+<!-- <h1 id="Heading">
+    Hello  world
+</h1>
+    <script src="main.js"></script> -->
+
+
+    <!-- <div class="container"><center><input id="number1" class="num1" placeholder="Enter a number"><br><br>
+        <input id="number2"  class="num2" placeholder="Enter a number"><br><br>
+        <button class="button1" onclick="resultfunction()">
+            Add
+        </button>
+        <p>Result: <span id="result"></span></p></center></div>
+    <script>
+        var num1=document.getElementById("number1")
+        var num2=document.getElementById("number2")
+        var result=document.getElementById("result")
+        function resultfunction(){
+            var value1=Number(num1.value)
+            var value2=Number(num2.value)
+            var total=value1+value2
+            result.textContent=total
+            console.log(total)
+        }
+    </script>
+    <style>
+        .container{
+            margin: auto;
+            border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: fit-content;
+        }
+        .num1{
+           background-color: bisque; 
+        }
+        .num2{
+           background-color: bisque; 
+        }
+        .num3{
+           background-color: bisque; 
+        }
+        .button1{
+            border-radius: 5px;
+        }
+        .button2{
+            border-radius: 5px;
+        }
+    </style>
+<br><br><br><div class="container1"><center>
+    <input placeholder="Enter a number" class="num3" id="guessnumber" /><br><br>
+    <button class="button2" onclick="check()">Check</button>
+    <p id="result">Right/wrong</p>
+    <p id="score">Score:10</p></center>
+</div>
+
+<script>
+  var guessnumber = document.getElementById("guessnumber");
+  var result = document.getElementById("result");
+  var score = document.getElementById("score");
+  var randomnumber = Math.floor(Math.random() * 10) + 1;
+  var totalscore = 10;
+  function check() {
+    var enterednumber = guessnumber.value;
+    if (randomnumber == enterednumber) {
+      console.log("right");
+      result.textContent = "right";
+      alert("You won");
+    } else {
+      totalscore = totalscore - 1;
+      score.textContent = "Score:" + totalscore;
+      console.log("wrong");
+      result.textContent = "Wrong";
+      alert("You lose");
+    }
+  }
+</script>
+<style>
+    .container1{
+        margin: auto;
+        border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+width: fit-content;
+    }
+    .num1{
+       background-color: bisque; 
+    }
+    .num2{
+       background-color: bisque; 
+    }
+    .button1{
+        border-radius: 5px;
+    }
+</style>
+<br><br> -->
+<!-- <style>
+    div{
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        transition: 2s;
+    }
+    .box1{
+        width: 100%;
+    }
+</style>
+<center><div id="box"></div><br>
+    <button onclick="change()">Color</button></center>
+<script>
+    var box=document.getElementById("box")
+function change(){
+    // box.style.backgroundColor="blue"
+    box.setAttribute("class","box1")
+}
+</script> -->
+<!-- 
+<input id="inputbox" onkeyup="update()">
+<h1 id="result"></h1>
+<script>
+   var inputbox=document.getElementById("inputbox")
+   var result=document.getElementById("result")
+
+    function update(){
+       result.textContent=inputbox.value
+    }
+</script> -->
+
+
+<!-- <button onclick="check()">Check</button>
+<div id="result"><center>
+
+</div>
+<script>
+    var div=document.getElementById("result")
+    function check(){
+        var listitem=document.createElement("h1")
+        listitem.textContent="Hello"
+        div.append(listitem)
+    }
+</script> -->
+
+
+
+<!-- <button id="btn" onclick="check()">Check</button>
+
+<script>
+    var btn=document.getElementById("btn")
+    function check(){
+      btn.style.backgroundColor="blue"
+    }
+</script> -->
+
+
+
+<!-- <h1 id="result">Name</h1>
+<button onclick="update(event)">Dinesh</button>
+<button onclick="update(event)">Ganesh</button>
+<button onclick="update(event)">Suresh</button>
+<script>
+    var h1=document.getElementById("result")
+    function update(event){
+        h1.textContent=event.target.textContent
+    }
+</script> -->
+
+
+
+<!-- <h1 onclick="update(event)">One</h1>
+<h1 onclick="update(event)">Two</h1>
+<h1 onclick="update(event)">Three</h1>
+<h1 onclick="update(event)">Four</h1>
+<h1 onclick="update(event)">Five</h1>
+<h1 onclick="update(event)">Six</h1>
+<script>
+    function update(event){
+        event.target.remove()
+    }
+</script> -->

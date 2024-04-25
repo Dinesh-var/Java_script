@@ -281,3 +281,143 @@ These are only needed in development environments:
 - **printWidth**: Specifies the line length that the formatter will wrap on (160 characters).
 
 This configuration ensures a robust setup for a web API leveraging Express, with capabilities for real-time communication, secure user authentication, file handling, logging, and connection to databases and external APIs.
+
+
+
+
+
+
+Node.js Core Modules
+Node.js comes with many core modules which are compiled to binary when node.js is installed. There is a list of node.js core modules with links to documentation.
+
+
+Assert
+*******	
+
+It is used by Node.js for testing itself. It can be accessed with require('assert').
+
+
+Buffer	
+*******
+
+It is used to perform operations on raw bytes of data which reside in memory. It can be accessed with require('buffer').
+
+
+Child Process
+**************	
+
+It is used by node.js for managing child processes. It can be accessed with It can be accessed with require('child_process').
+
+
+Cluster	
+********
+
+This module is used by Node.js to take advantage of multi-core systems, so that it can handle more load. It can be accessed with require('cluster').
+
+
+Console	
+********
+
+It is used to write data to console. Node.js has a Console object which contains functions to write data to console. It can be accessed with require('console').
+
+
+Crypto	
+******
+
+It is used to support cryptography for encryption and decryption. It can be accessed with require('crypto').
+
+
+Debugger	
+*********
+
+It is used for code debugging. To use this, start Node.js with the debug argument and for debugging add debugger; statement in your code.
+
+
+DNS
+****	
+
+It is used to perform operations like lookup and resolve on domain names. It can be accessed with require('dns').
+
+
+Events	
+*******
+
+It is used for events handling in node.js. In node.js, events are emitted by other node objects. It can be accessed with require('events').
+
+
+File System	
+************
+
+It is used to perform operations on files. It can be accessed with require('fs').
+
+
+HTTP	
+*****
+
+It is used to create Http server and Http client. It can be accessed with require('http').
+
+
+Net	
+****
+
+It used to create TCP server and client which can communicate over a network using TCP protocol. It can be accessed with require('net').
+
+
+OS	
+***
+
+It is used to provide basic operating system related utility functions. It can be accessed with require('os').
+
+
+Path
+*****	
+
+It is used to perform operations on paths of files. It can be accessed with require('path').
+
+
+Process	
+********
+
+It is a global object and provides information related to the program execution. You do not need to load it using require() method.
+
+
+Query 
+******
+
+String	It is used to deal with query strings.
+
+
+Stream	
+*******
+
+It is used to stream data between two entities. It can be accessed with require('stream').
+
+
+Timers
+*******	
+
+All of the timer functions are global and deals with time. You do not need to load it using require() method.
+
+
+Url	
+****
+
+It is used for URL resolution and parsing. It can be accessed with require('url').
+
+
+Util
+*****	
+
+It is primarily designed to support the needs of Node.js's internal APIs. It is also useful for debugging. It can be accessed with require('util').
+
+
+Vm	
+***
+
+It provides an access to V8 virtual machine to compile and execute JavaScript code. It can be accessed with require('vm').
+
+
+Zlib
+*****	
+
+It is used to compress and decompress data. It can be accessed with require('zlib').
